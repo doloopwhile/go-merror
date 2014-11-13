@@ -39,4 +39,4 @@ MIT License. See LICENSE file.
 I am looking for you pull request.
 
 ## Author
-(doloopwhile)[https://github.com/doloopwhile/]
+[doloopwhile](https://github.com/doloopwhile/)

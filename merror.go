@@ -13,7 +13,7 @@ type MultipleError struct {
 // Of is a factory of MultipleError.
 // If errs contains non-nil errors, returns a MultipleError of the errors.
 // If errs contains nil's only or errs is nil, returns nil
-func Of(errs []error) *MultipleError {
+func Of(errs []error) error {
 	m := &MultipleError{}
 	for _, err := range errs {
 		if err != nil {
